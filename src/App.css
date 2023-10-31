@@ -1,0 +1,17 @@
+a:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.head {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Playpen Sans', cursive;
+  margin-top: 15px;
+}
