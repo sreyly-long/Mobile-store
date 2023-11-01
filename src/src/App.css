@@ -1,0 +1,43 @@
+a:hover {
+  cursor: pointer;
+  color: gray;
+}
+body {
+  background-color: whitesmoke;
+}
+
+.head {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Playpen Sans', cursive;
+  margin-top: 15px;
+}
+.logo {
+  text-decoration: none;
+  text-shadow: 2px 2px gray;
+  color: black;
+}
+.product {
+  margin-top: 20px;
+
+}
+.card img {
+  height: 200px;
+}
+.card-text {
+  text-align: center;
+}
+.card-body {
+  background-color: whitesmoke;
+}
+.btn {
+  align-items: center;
+  margin-left: 30px;
+
+}
