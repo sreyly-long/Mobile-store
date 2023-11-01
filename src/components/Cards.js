@@ -1,16 +1,16 @@
-function Cards(){
+const Cards = ({product}) => {
     return (
         <>
-           <div className="card border-0 shadow-sm h-100">
-            <div className="card-body">
-                <p className="card-text"></p>
-                
-
-            </div>
-
-           </div>
+            <section>
+            <div class="card">
+                    <img src={product.thumbnail} class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <p class="card-text">{product.title}</p>
+                            <a href="#" class="btn btn-secondary">Add to Cart</a>
+                        </div>
+                </div>
+            </section>
         </>
-
     )
 }
 export default Cards;

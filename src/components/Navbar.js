@@ -4,17 +4,18 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
-import logo from '../asset/logo1-removebg-preview.png'
 
 
 function Navbars() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <section>
+            <Navbar expand="lg" className="bg-body-tertiary">
             <Container fluid>
-                <Navbar.Brand to="#">
-                <img src={logo} alt="empty" style={{height:100,width:100}}/>
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Brand to="#">
+                <Link to="/"className='logo'>Mobile-Store</Link>
+            </Navbar.Brand>
+                
+            <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
                         className="me-auto my-2 my-lg-0"
@@ -42,6 +43,9 @@ function Navbars() {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+
+        </section>
+        
     );
 
 }
