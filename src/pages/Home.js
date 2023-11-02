@@ -3,7 +3,7 @@ import background1 from "../asset/background1.jpg"
 import background2 from "../asset/background2.avif"
 import background3 from "../asset/background3.webp"
 import Cards from "../components/Cards"
-import { Link } from "react-router-dom"
+import { useState } from "react"
 
 
 
@@ -73,6 +73,144 @@ const Home = () => {
             thumbnail: "https://rukminim2.flixcart.com/image/850/1000/kxgfzbk0/smartwatch/k/n/y/-original-imag9wz384kvusv3.jpeg?q=90"
         },
     ]
+    const [smart] = useState(
+        [
+            {
+                id: 1,
+                title: "Mobile Phones with 12GB RAM:6 Latest Mobile Phones 12GB",
+                thumbnail: "https://m.economictimes.com/thumb/msid-98897778,width-1200,height-1200,resizemode-4,imgsize-35708/6-latest-mobile-phones-with-12gb-ram-in-india.jpg"
+            },
+            {
+                id: 2,
+                title: "New Report Backs iPhone 15 Pro, iPhone 15 Pro Max Price Rises",
+                thumbnail: "https://imageio.forbes.com/specials-images/imageserve/64e74ad803781abed13b0612/Apple--iPhone--iPhone-15--iPhone-15-Pro--iPhone-15-Pro-Max--iPhone-15-release--new/0x0.jpg?format=jpg&crop=1275,956,x113,y0,safe&width=960"
+            },
+            {
+                id: 3,
+                title: "iPhone 14pro - Telstra 12GB Camera RAM:6 by Mobile-Store",
+                thumbnail: "https://www.telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/landscape-front.png"
+            },
+            {
+                id: 4,
+                title: "Samsung Galaxy S21 5G SM-G9910 by Mobile-Store",
+                thumbnail: "https://media.router-switch.com/media/catalog/product/cache/b90fceee6a5fa7acd36a04c7b968181c/s/a/samsung-galaxy-s21-5g-sm-g9910.jpg"
+            },
+            {
+                id: 5,
+                title: "Lenovo M7 3rd Gen (TB-7305F)Tablet - lron Grey 32GB",
+                thumbnail: "https://www.pbtech.co.nz/imgprod/T/A/TABLEN7903__1.jpg"
+            },
+            {
+                id: 6,
+                title: "Oppo A78 5G(Glowing Blue,8GB RAM,128 Stronge)|5000 mAh",
+                thumbnail: "https://m.media-amazon.com/images/I/41yx-OTfNwL.jpg"
+            },
+
+        ]
+    )
+    const [tablet] = useState(
+        [
+            {
+                id: 1,
+                title: "Android Tablet by Mobile-Store",
+                thumbnail: "https://www.android.com/static/2016/img/devices/tablets/transparent/galaxy-tab-s2_1x.png"
+            },
+            {
+                id: 2,
+                title: "Apple iPid Pro 12.9 2021 Tabblet",
+                thumbnail: "https://cdn1.smartprix.com/rx-iSqCSLMbq-w1200-h1200/SqCSLMbq.jpg"
+            },
+            {
+                id: 3,
+                title: "Apple iPad Pro 256GB 11 by Mobile-Store",
+                thumbnail: "https://www.tradeinn.com/f/13754/137543065/apple-ipad-pro-256gb-11.jpg"
+            },
+            {
+                id: 4,
+                title: "Huawei MediaPad M5 10 Mobile-Store",
+                thumbnail: "https://fdn2.gsmarena.com/vv/bigpic/huawei-mediapad-m5-10.jpg"
+            },
+            {
+                id: 5,
+                title: "Stylus Pen for iPad Pencil by Mobile-Store",
+                thumbnail: "https://m.media-amazon.com/images/I/61+WzBO2KQL._AC_UF894,1000_QL80_.jpg"
+            },
+            {
+                id: 6,
+                title: "Top 10 Affordable Tablet by Mobile-Store",
+                thumbnail: "https://cdn.shopify.com/s/files/1/0565/5134/2275/files/Huawei_MatePad_T10_480x480.png?v=1675736414"
+            },
+        ]
+    )
+    const [laptop] = useState(
+        [
+            {
+                id: 1,
+                title: "Laptop Buying Guide(2023)",
+                thumbnail: "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/4:3/w_1787,h_1340,c_limit/How-to-Choose-a-Laptop-August-2023-Gear.jpg"
+            },
+            {
+                id: 2,
+                title: "ASUS ROG Strix 15.6 R9 RTX 3060",
+                thumbnail: "https://i5.walmartimages.com/seo/ASUS-ROG-Strix-15-6-R9-RTX-3060-Gaming-Laptop-FHD-AMD-Ryzen-9-5900HX-NVIDIA-GeForce-3060-16GB-RAM-1TB-SSD-Eclipse-Gray-Windows-10-Home-G513QM-WS96_8ca98551-8e80-431a-a0bf-2ae037b9e571.74a18e3919f93a362f7367ac2d157d84.jpeg"
+            },
+            {
+                id: 3,
+                title: "Lenovo Ideapad Gaming Chrmebook",
+                thumbnail: "https://m.media-amazon.com/images/I/61DurOT--9L.jpg"
+            },
+            {
+                id: 4,
+                title: "LAptop Lenovo ThinkPAd Gen2-ITU",
+                thumbnail: "https://itsolution-cambodia.com/wp-content/uploads/2023/01/Lenovo-ThinkPad-E14.png"
+            },
+            {
+                id: 5,
+                title: "Lenovo ThinkPad X1 Nano Gen113&#031",
+                thumbnail: "https://i.ebayimg.com/images/g/sRsAAOSwSGxlNiua/s-l1200.webp"
+            },
+            {
+                id: 6,
+                title: "Surface LAptop Go 3:Ultra-porttable",
+                thumbnail: "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Surface-Laptop-Go-3_OG_Twitter-image?scl=1"
+            },
+        ]
+    )
+    const [smartwatch] = useState(
+        [
+            {
+                id: 1,
+                title: "Phone SmartWatch Answer/Make Calls",
+                thumbnail: "https://m.media-amazon.com/images/I/712+lS1mk-L.jpg"
+            },
+            {
+                id: 2,
+                title: "CW900 HR WELL - BEING SMART WATCH",
+                thumbnail: "https://contents.mediadecathlon.com/p2320005/k$6e46fbd99b3381f1da3d205fbd250c3b/cw900-hr-well-being-smart-watch-blue.jpg?format=auto&quality=70&f=768x768"
+            },
+            {
+                id: 3,
+                title: "Umbro Bluetooth Smart Watch with Sport",
+                thumbnail: "https://cdna.lystit.com/520/650/n/photos/amazon/3c8b9637/umbro-Black-Bluetooth-Smart-Watch-Watch-With-Sports-Functions-Hr-Smartwatch-And-Body-Temperature-Sensor-Smart-Watch-Touch-Screen-096.jpeg"
+            },
+            {
+                id: 4,
+                title: "Lenovo Ideapad Gaming Chrmebook",
+                thumbnail: "https://i5.walmartimages.com/seo/Lenovo-Ideapad-Gaming-Chromebook-16-0-WQXGA-2-5K-IPS-Display-Intel-Core-i3-1215U-8GB-RAM-128GB-eMMC-Storm-Grey-82V80009UX-Cloud-Gaming_0c8c2bbb-6e19-47fc-9b81-d0c236f1b43a.0d12448c4d3956fad8563e57b6a68569.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+            },
+            {
+                id: 5,
+                title: "Black Rectangular M5 Smart Band Watch",
+                thumbnail: "https://5.imimg.com/data5/SELLER/Default/2022/4/KM/LW/WN/36969715/m5-smart-band-watch.jpg"
+            },
+            {
+                id: 6,
+                title: "Smartwatch with Bluetooth calling",
+                thumbnail: "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697625617/Croma%20Assets/Communication/Wearable%20Devices/Images/272414_sxxpyk.png"
+            },
+        ]
+
+    )
 
 
 
@@ -114,7 +252,7 @@ const Home = () => {
                     {
                         products.map((pro) => (
                             <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                                <Cards product={pro} />
+                                <Cards title={pro.title} thumbnail={pro.thumbnail} />
 
                             </div>
 
@@ -131,65 +269,15 @@ const Home = () => {
             <hr></hr>
             <section className="container">
                 <div className="row g-3">
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://m.economictimes.com/thumb/msid-98897778,width-1200,height-1200,resizemode-4,imgsize-35708/6-latest-mobile-phones-with-12gb-ram-in-india.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Mobile Phones with 12GB RAM:6 Latest Mobile Phones 12GB</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
+                    {
+                        smart.map((smart) => (
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <Cards title={smart.title} thumbnail={smart.thumbnail} />
                             </div>
-                        </div>
-                    </div>
 
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://imageio.forbes.com/specials-images/imageserve/64e74ad803781abed13b0612/Apple--iPhone--iPhone-15--iPhone-15-Pro--iPhone-15-Pro-Max--iPhone-15-release--new/0x0.jpg?format=jpg&crop=1275,956,x113,y0,safe&width=960"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">New Report Backs iPhone 15 Pro, iPhone 15 Pro Max Price Rises</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
+                        ))
+                    }
 
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://www.telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/landscape-front.png"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">iPhone 14pro - Telstra 12GB Camera RAM:6 by Mobile-Store</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://media.router-switch.com/media/catalog/product/cache/b90fceee6a5fa7acd36a04c7b968181c/s/a/samsung-galaxy-s21-5g-sm-g9910.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Samsung Galaxy S21 5G SM-G9910 by Mobile-Store</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://www.pbtech.co.nz/imgprod/T/A/TABLEN7903__1.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Lenovo M7 3rd Gen (TB-7305F)Tablet - lron Grey 32GB</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://m.media-amazon.com/images/I/41yx-OTfNwL.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Oppo A78 5G(Glowing Blue,8GB RAM,128 Stronge)|5000 mAh</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
@@ -201,65 +289,15 @@ const Home = () => {
             <hr></hr>
             <section className="container">
                 <div className="row g-3">
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://www.android.com/static/2016/img/devices/tablets/transparent/galaxy-tab-s2_1x.png"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Android Tablet by Mobile-Store </p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
+                    {
+                        tablet.map((tablet) => (
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <Cards title={tablet.title} thumbnail={tablet.thumbnail} />
                             </div>
-                        </div>
-                    </div>
 
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://cdn1.smartprix.com/rx-iSqCSLMbq-w1200-h1200/SqCSLMbq.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Apple iPid Pro 12.9 2021 Tabblet</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
+                        ))
+                    }
 
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://www.tradeinn.com/f/13754/137543065/apple-ipad-pro-256gb-11.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Apple iPad Pro 256GB 11 by Mobile-Store</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://fdn2.gsmarena.com/vv/bigpic/huawei-mediapad-m5-10.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Huawei MediaPad M5 10 Mobile-Store</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://m.media-amazon.com/images/I/61+WzBO2KQL._AC_UF894,1000_QL80_.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Stylus Pen for iPad Pencil by Mobile-Store</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://cdn.shopify.com/s/files/1/0565/5134/2275/files/Huawei_MatePad_T10_480x480.png?v=1675736414"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Top 10 Affordable Tablet by Mobile-Store</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
@@ -271,136 +309,37 @@ const Home = () => {
             <hr></hr>
             <section className="container">
                 <div className="row g-3">
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://media.wired.com/photos/64daad6b4a854832b16fd3bc/4:3/w_1787,h_1340,c_limit/How-to-Choose-a-Laptop-August-2023-Gear.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Laptop Buying Guide(2023) </p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
+                    {
+                        laptop.map((laptop) => (
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <Cards title={laptop.title} thumbnail={laptop.thumbnail} />
                             </div>
-                        </div>
-                    </div>
 
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://i5.walmartimages.com/seo/ASUS-ROG-Strix-15-6-R9-RTX-3060-Gaming-Laptop-FHD-AMD-Ryzen-9-5900HX-NVIDIA-GeForce-3060-16GB-RAM-1TB-SSD-Eclipse-Gray-Windows-10-Home-G513QM-WS96_8ca98551-8e80-431a-a0bf-2ae037b9e571.74a18e3919f93a362f7367ac2d157d84.jpeg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">ASUS ROG Strix 15.6 R9 RTX 3060</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
+                        ))
+                    }
 
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://m.media-amazon.com/images/I/61DurOT--9L.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Lenovo IP Gaming 3 AMD Ryzen 5 5600</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://i5.walmartimages.com/seo/Lenovo-Ideapad-Gaming-Chromebook-16-0-WQXGA-2-5K-IPS-Display-Intel-Core-i3-1215U-8GB-RAM-128GB-eMMC-Storm-Grey-82V80009UX-Cloud-Gaming_0c8c2bbb-6e19-47fc-9b81-d0c236f1b43a.0d12448c4d3956fad8563e57b6a68569.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Lenovo Ideapad Gaming Chrmebook</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://itsolution-cambodia.com/wp-content/uploads/2023/01/Lenovo-ThinkPad-E14.png"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">LAptop Lenovo ThinkPAd Gen2-ITU </p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://i.ebayimg.com/images/g/sRsAAOSwSGxlNiua/s-l1200.webp"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Lenovo ThinkPad X1 Nano Gen113&#031</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
             <section className="container">
                 <div className="title">
-                   <h1>SmartWatch</h1>
+                    <h1>SmartWatch</h1>
                 </div>
             </section>
             <hr></hr>
 
             <section className="container">
                 <div className="row g-3">
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://m.media-amazon.com/images/I/712+lS1mk-L.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Phone SmartWatch Answer/Make Calls</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
+                    {
+                        smartwatch.map((smartwatch) => (
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <Cards title={smartwatch.title} thumbnail={smartwatch.thumbnail} />
                             </div>
-                        </div>
-                    </div>
 
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://contents.mediadecathlon.com/p2320005/k$6e46fbd99b3381f1da3d205fbd250c3b/cw900-hr-well-being-smart-watch-blue.jpg?format=auto&quality=70&f=768x768"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">CW900 HR WELL - BEING SMART WATCH</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
+                        ))
+                    }
 
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://cdna.lystit.com/520/650/n/photos/amazon/3c8b9637/umbro-Black-Bluetooth-Smart-Watch-Watch-With-Sports-Functions-Hr-Smartwatch-And-Body-Temperature-Sensor-Smart-Watch-Touch-Screen-096.jpeg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Umbro Bluetooth Smart Watch with Sport </p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://i5.walmartimages.com/seo/Lenovo-Ideapad-Gaming-Chromebook-16-0-WQXGA-2-5K-IPS-Display-Intel-Core-i3-1215U-8GB-RAM-128GB-eMMC-Storm-Grey-82V80009UX-Cloud-Gaming_0c8c2bbb-6e19-47fc-9b81-d0c236f1b43a.0d12448c4d3956fad8563e57b6a68569.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Lenovo Ideapad Gaming Chrmebook</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://5.imimg.com/data5/SELLER/Default/2022/4/KM/LW/WN/36969715/m5-smart-band-watch.jpg"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Black Rectangular M5 Smart Band Watch</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697625617/Croma%20Assets/Communication/Wearable%20Devices/Images/272414_sxxpyk.png"class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Smartwatch with Bluetooth calling</p>
-                                <a href="#" class="btn btn-secondary">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
         </>

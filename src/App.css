@@ -27,8 +27,12 @@ body {
   margin-top: 20px;
 
 }
+.card {
+  width: 205px;
+}
 .card img {
   height: 200px;
+  width: 203px;
 }
 .card-text {
   text-align: center;
@@ -40,4 +44,12 @@ body {
   align-items: center;
   margin-left: 30px;
 
+}
+.smartphone {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Playpen Sans', cursive;
+  margin-top: 5px;
+  text-shadow: 2px 2px rgb(135, 206, 235);
+  color: gray;
 }
