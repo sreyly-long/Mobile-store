@@ -24,7 +24,7 @@ function Navbars() {
                     >
                         <Link to="/" className='head'> Home</Link>
                         <Link to="/smart_phone" className='head'>Smartphone</Link>
-                        <Link to="/tabplet" className='head'>Tablet</Link>
+                        <Link to="/tablet" className='head'>Tablet</Link>
                         <Link to="/Laptop" className='head'>Laptop</Link>
                         <Link to="/smart_watch" className='head'>Smartwatch</Link>
                     </Nav>
