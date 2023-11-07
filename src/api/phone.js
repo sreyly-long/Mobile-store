@@ -43,7 +43,7 @@ export const phone =  new class Phone {
                 {
                     id: 8,
                     title: "Apple iPhone 12 (128GB) Vermelho - Mobile View",
-                    thumbnail: "https://mobileview.pt/wp-content/uploads/2023/01/iphone-12-red-select-2020.png"
+                    thumbnail: "https://cdn.dxomark.com/wp-content/uploads/medias/post-61183/iphone-12-pro-blue-hero.jpg"
                 },
                 {
                     id: 9,
@@ -123,8 +123,8 @@ export const phone =  new class Phone {
                 },
                 {
                     id: 3,
-                    title: "Samsung Galaxy Note7 |WIRE by Mobile-Store",
-                    thumbnail: "https://www.telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/landscape-front.png"
+                    title: "Samsung Galaxy Note7  12GB |WIRE by Mobile-Store",
+                    thumbnail: "https://images.samsung.com/is/image/samsung/assets/my/p6_gro2/p6_initial_mktpd/smartphones/galaxy-note10/specs/SMN975GalaxyNote10BackPenAuraGlowThumbnail.jpeg?$163_346_PNG$"
                 },
                 {
                     id: 4,

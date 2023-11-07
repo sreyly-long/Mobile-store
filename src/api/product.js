@@ -87,7 +87,7 @@ export const supplier = new class Supplier {
                 },
                 {
                     id: 3,
-                    title: "Umbro Bluetooth Smart Watch with Sport",
+                    title: "Umbro Bluetooth Smart Watch sport",
                     thumbnail: "https://cdna.lystit.com/520/650/n/photos/amazon/3c8b9637/umbro-Black-Bluetooth-Smart-Watch-Watch-With-Sports-Functions-Hr-Smartwatch-And-Body-Temperature-Sensor-Smart-Watch-Touch-Screen-096.jpeg"
                 },
                 {

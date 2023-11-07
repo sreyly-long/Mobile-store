@@ -7,8 +7,9 @@ function Tablet(){
     return(
         <>
          <div className="smartphone"><h1>iPad</h1></div>
+         <hr ></hr>
          <section className="container">
-            <div className="row g-3 ">
+            <div className="row mt-5 g-3 ">
             {
                         tablet.getIpad().map(iPad => (
                             <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
@@ -24,8 +25,9 @@ function Tablet(){
          </section>
 
          <div className="smartphone"><h1>Lenovo</h1></div>
+         <hr ></hr>
          <section className="container">
-            <div className="row g-3 ">
+            <div className="row mt-5 g-3 ">
             {
                         tablet.getLenovo().map(lenovos => (
                             <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
@@ -41,8 +43,9 @@ function Tablet(){
          </section>
 
          <div className="smartphone"><h1>Samsung</h1></div>
+         <hr ></hr>
          <section className="container">
-            <div className="row g-3 ">
+            <div className="row mt-5 g-3 ">
             {
                         tablet.getSamsung().map(sam => (
                             <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">

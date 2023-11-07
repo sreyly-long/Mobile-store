@@ -4,7 +4,7 @@ export const tablet = new class Tablet {
             [
                 {
                     id:1,
-                    title:"Apple iPad Pro 11(2021) by Mobile-Store",
+                    title:"Apple iPad Pro 11 by Mobile-Store",
                     thumbnail:"https://www.gizmochina.com/wp-content/uploads/2021/04/ipad-pro-11-2021-500x500.jpg",
     
                 },
@@ -15,7 +15,7 @@ export const tablet = new class Tablet {
                 },
                 {
                     id:3,
-                    title:"Aoole iPAd Pro 11-inch(3rd Gen)",
+                    title:"Apple iPAd Pro 11-inch(3rd Gen)",
                     thumbnail:"https://d1rlzxa98cyc61.cloudfront.net/catalog/product/cache/1801c418208f9607a371e61f8d9184d9/1/7/175253_2020_7.jpg"
                 },
                 {
@@ -47,7 +47,7 @@ export const tablet = new class Tablet {
                 },
                 {
                     id:2,
-                    title:"Tablet Lenovo Yoga Tab 13(13,Android)newest hight-end by Mobile-Store",
+                    title:"Tablet Lenovo Yoga Tab 13(13,Android)newest by Mobile-Store",
                     thumbnail:"https://www.lenovo.com/medias/lenovo-tablets-android-tablets-lenovo-tab-series-yoga-tab13-hero.png?context=bWFzdGVyfHJvb3R8ODg5NjN8aW1hZ2UvcG5nfGhmZS9oNDYvMTE2Nzk5NzgyOTEyMzAucG5nfDI0YjhlNGYyOWMzYjk3Y2E1NDE4YmJiZmNjN2YxZGFkNzQ4YzI2MjAyZWUzZWU5MDE1MzA1YjYxMDdiOTUwYTk"
                 },
                 {
@@ -57,7 +57,7 @@ export const tablet = new class Tablet {
                 },
                 {
                     id:4,
-                    title:"Lenovo Tab P11|Android Tablet|Lenovo US Meomory 128GB by Mobile-Store",
+                    title:"Lenovo Tab P11|Android Lenovo US Meomory 128GB by Mobile-Store",
                     thumbnail:"https://p3-ofp.static.pub/fes/cms/2021/07/22/icysl39azuqnz4yrv7wc9zopwx8a45492484.png"
                 },
                 {

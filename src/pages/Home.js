@@ -3,7 +3,6 @@ import background1 from "../asset/background1.jpg"
 import background2 from "../asset/background2.avif"
 import background3 from "../asset/background3.webp"
 import Cards from "../components/Cards"
-import { useState } from "react"
 import { supplier } from "../api/product"
 
 
@@ -16,14 +15,14 @@ const Home = () => {
                     <div className="content_wrapper wrap">
                         <div id="carouselExample" className="carousel slide">
                             <div className="carousel-inner ">
-                                <div className="carousel-item active">
-                                    <img src={background1} alt="empty" style={{ height: 600, width: 1600 }} />
+                                <div className="carousel-item active ">
+                                    <img src={background1} alt="empty" style={{ height: 600, width: 2000 }} />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={background2} alt=".." style={{ height: 600, width: 1600 }} />
+                                    <img src={background2} alt=".." style={{ height: 600, width: 2000 }} />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={background3} alt="empty" style={{ height: 600, width: 1600 }} />
+                                    <img src={background3} alt="empty" style={{ height: 600, width: 2000 }} />
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
