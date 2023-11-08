@@ -31,6 +31,37 @@ export const watch = new class Watch {
                 id:6,
                 title:"Apple Watch Ultra GPS + Cellular 49mm",
                 thumbnail:"https://cdn.niwzi.be/images/ez_prod/2750/582890/hires/apple-watch-ultra-gps-cellular-49mm-titanium-case-met-midnight-ocean-band-1-1662654977_800x600.jpeg"
+            },
+
+            {
+                id:7,
+                title:"Apple Watch Series 9 in Mobile-Store",
+                thumbnail:"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/s9-case-unselect-gallery-1-202309_GEO_IN_FMT_WHH?wid=752&hei=720&fmt=p-jpg&qlt=80&.v=1693438466860"
+            },
+            {
+                id:8,
+                title:"Apple Watch MC Solution BD ",
+                thumbnail:"https://media.karousell.com/media/photos/products/2023/4/1/apple_watch_se_1680340926_e437e063_progressive.jpg"
+            },
+            {
+                id:9,
+                title:"Apple Samrt Watch at Mobile-store",
+                thumbnail:"https://static-01.daraz.pk/p/9e9215740d1f27a507a5f0337bcec0cb.jpg"
+            },
+            {
+                id:10,
+                title:"Apple Watch Series 1 at Mobile-Store",
+                thumbnail:"https://ae01.alicdn.com/kf/H54c32e87b789450098e5c4cf2c1bf2a8o/MI5-Smart-Watch-Wristband-Mi5-Bluetooth-Sport-SmartWatch-Call-Music-Camera-Control-Heart-Rate-Monitor-Fitness.jpg"
+            },
+            {
+                id:11,
+                title:" Apple Smart Watch Series 7 GPS 41mm",
+                thumbnail:"https://assets.asaxiy.uz/product/items/desktop/9c091a01618f55e6601a9de0dea8f5c02021102018592491160g9sJGeOVnR.jpg.webp"
+            },
+            {
+                id:12,
+                title:"Apple Black Series 8 Samrt Watch for Daily",
+                thumbnail:"https://5.imimg.com/data5/SELLER/Default/2023/4/299324335/QI/CC/GK/141620873/series-8-smart-watch.jpg"
             }
            ]
         )
@@ -74,6 +105,37 @@ export const watch = new class Watch {
                     title:"WalkFit Smart Watch,A1 Smart Watch",
                     thumbnail:"https://m.media-amazon.com/images/I/71qDF7xVCWL.jpg"
                 },
+
+                {
+                    id:7,
+                    title:"Big Screen Size 2.8inch 4G Android Samrt Watch",
+                    thumbnail:"https://image.made-in-china.com/2f0j00nkHzAVmdyPbR/Big-Screen-Size-2-8inch-4G-Android-Smart-Watch-Camera-Smartwatch.webp"
+                },
+                {
+                    id:8,
+                    title:"Smart Watch Full Touch Samrt Watch for Android",
+                    thumbnail:"https://m.media-amazon.com/images/I/71Zmcw24IML.jpg"
+                },
+                {
+                    id:9,
+                    title:"Rogbid Brave 31.99inch TFT Screen Android 9.1 LTE",
+                    thumbnail:"https://img.myipadbox.com/sec/product_l/EDA0038954.jpg"
+                },
+                {
+                    id:10,
+                    title:"IFMDA Smart Watch For MEn 1.83 HD Touch Screen",
+                    thumbnail:"https://m.media-amazon.com/images/I/51TBDQav0mL._QL92_SH45_SS200_.jpg"
+                },
+                {
+                    id:11,
+                    title:"ZGPAX GPS Android 4G Smart Watch for Men in Mobile-Store",
+                    thumbnail:"https://m.media-amazon.com/images/I/61hKVd0AprL.jpg"
+                },
+                {
+                    id:12,
+                    title:"7PRo Max Smart Watch Android Blood Pressur Sensor",
+                    thumbnail:"https://www.starcity.pk/wp-content/uploads/2022/04/i7-pro-smart-watch-3.jpg"
+                },
             ]
         )
     }
@@ -110,6 +172,37 @@ export const watch = new class Watch {
                     id:6,
                     title:"HAMMER Fit Pro Waterproof Bluetooth 4.0",
                     thumbnail:"https://images-static.nykaa.com/media/catalog/product/f/i/fitpro_red_wbg_2.jpg?tr=w-500,pr-true"
+                },
+
+                {
+                    id:7,
+                    title:"Black Lord Bluetooth Smart Bracelet",
+                    thumbnail:"https://cdn0.woolworths.media/content/wowproductimages/large/1074179644.jpg"
+                },
+                {
+                    id:8,
+                    title:"C5S Samrt Bracelet Bluetooth ",
+                    thumbnail:"https://kinet.com.au/cdn/shop/products/7b822c4b2435f4261d24960bded92c73_2048x2048.jpg?v=1628596328"
+                },
+                {
+                    id:9,
+                    title:"Fitness Tracker Watch Heart Rate",
+                    thumbnail:"https://i5.walmartimages.com/asr/caf8ad3f-4915-4b2c-a6cd-8da135fd1c2a.a6bb2d27252d1034162bf2bf0343edfa.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+                },
+                {
+                    id:10,
+                    title:"C5s Blutooth Waterproof Heart Rate",
+                    thumbnail:"https://ae01.alicdn.com/kf/Hb9c3af5a1af843e496e9178cfbfbb1e8y/C5S-Bluetooth-Waterproof-Heart-Rate-Sleep-Monitor-Fitness-Sports-Smart-Bracelet-Multifunctional-Touch-Screen-Smart-Bracelet.jpg"
+                },
+                {
+                    id:11,
+                    title:"Blutooth Smart Watch Wrisband IP67",
+                    thumbnail:"https://ae01.alicdn.com/kf/H70ce49cee1d64dea9e5531595e1f93f3j.jpg"
+                },
+                {
+                    id:12,
+                    title:"Best Full Round Touch Screen ",
+                    thumbnail:"https://image.made-in-china.com/2f0j00pHRqEFocZCkZ/Best-Full-Round-Touch-Screen-Precise-Heart-Rate-Monitoring-Smart-Bluetooth-Call-Sport-Bracelet-with-IP67-Waterproof-Mt3.jpg"
                 },
             ]
         )

@@ -41,7 +41,7 @@ function SmartWatch(){
         </section>
 
         <section className="container">
-                <div className="smartphone"><h1>Bluetooth</h1></div>
+                <div className="smartphone"><h1>Bracelet</h1></div>
         </section>
         <hr ></hr>
         <section>
