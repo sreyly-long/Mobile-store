@@ -11,6 +11,11 @@ function Footer() {
                     <li class="nav-item"><Link to="/laptop" class="nav-link px-2 text-body-secondary">Laptop</Link></li>
                     <li class="nav-item"><Link to="/smart_watch" class="nav-link px-2 text-body-secondary">Smartwatch</Link></li>
                 </ul>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+                </ul>
                 <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
             </footer>
         </>

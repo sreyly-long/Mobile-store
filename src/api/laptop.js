@@ -32,6 +32,37 @@ export const laptop = new class LapTop {
                     title:"Dell Inspiron 15 7567th Gen Intel Core i7-7700HQ 15.6 inches by Mobile-Store",
                     thumbnail:"https://m.media-amazon.com/images/I/71dtYVED14L._AC_UF1000,1000_QL80_.jpg"
                 },
+
+                {
+                    id:7,
+                    title:"Dell LAtitude 3510 15.6 Core i5",
+                    thumbnail:"https://images.pcliquidations.com/images/isaac/140/140093t550.jpg"
+                },
+                {
+                    id:8,
+                    title:"Dell Latitude 3789 Convrtible",
+                    thumbnail:"https://www.tech-bazaar.com/wp-content/uploads/2023/10/Dell-Latitude-7389-13.3-Convertible-Touchscreen-Laptop-7th-Gen-i7-7600U-Lflip.jpg"
+                },
+                {
+                    id:9,
+                    title:"Dell Inspiron 7778,17.3 Core i7",
+                    thumbnail:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmh7dn9uioKcpmFWjVI8J2OVgBIxoSMQNaaQ&usqp=CAU"
+                },
+                {
+                    id:10,
+                    title:"Dell Core i7 Heavy duty Windows 10",
+                    thumbnail:"https://down-ph.img.susercontent.com/file/db0b8ec1b25d9bcde21896aa2a340ede"
+                },
+                {
+                    id:11,
+                    title:"Dell launches new G7 gaming latop",
+                    thumbnail:"https://cdn.vox-cdn.com/thumbor/dlwFSoXpn4mVI60xmM-wDUY3v5w=/0x0:1600x1304/2000x1333/filters:focal(775x486:776x487)/cdn.vox-cdn.com/uploads/chorus_asset/file/20048771/dg7700nt_cnb_05000ff090_bk.png"
+                },
+                {
+                    id:12,
+                    title:"Dell gaming G5 15 5500 Intel Core i7",
+                    thumbnail:"https://m.media-amazon.com/images/I/71sRJdOEUEL._AC_UF894,1000_QL80_.jpg"
+                },
             ]
         )
     }
@@ -69,6 +100,37 @@ export const laptop = new class LapTop {
                     title:"ASUS ROG 16 TouchScreen",
                     thumbnail:"https://i5.walmartimages.com/asr/3e7ff72f-d754-447e-9a4d-43e557438fc4.afb044b384f84cc612c856ad42523066.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
                 },
+                {
+                    id:7,
+                    title:"Laptops For Gaming Asus Bangladesh",
+                    thumbnail:"https://www.asus.com/media/Odin/Websites/global/ProductLine/20200824120546.jpg"
+                },
+                {
+                    id:8,
+                    title:"Laptop Asus ZenBook 14 UX425EA",
+                    thumbnail:"https://itsolution-cambodia.com/wp-content/uploads/2021/07/ZenBook-14-UX4251.png"
+                },
+                {
+                    id:9,
+                    title:"Asus ZenBook 14 Laptop Computer",
+                    thumbnail:"https://i5.walmartimages.com/asr/49cc8576-06d2-44f0-a72a-bcf6fde84497.e1ee2075c7033cbc68ef95de8b0da198.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+                },
+                {
+                    id:10,
+                    title:"Asus Creator LAptop Q(Q530)",
+                    thumbnail:"https://dlcdnwebimgs.asus.com/gain/ae69a1cc-8dc7-4901-8383-6533be2c7894/"
+                },
+                {
+                    id:11,
+                    title:"Asus New dual-screen laptp",
+                    thumbnail:"https://helios-i.mashable.com/imagery/articles/05MWwHhUKuh33Ic3lHIKDMl/hero-image.fill.size_1248x702.v1623385155.png"
+                },
+                {
+                    id:12,
+                    title:"Asus Laptop VivoBook Core i5",
+                    thumbnail:"https://supremeitmall.com/wp-content/uploads/2021/11/ASUS-Laptop-15-X515JA_2.jpg"
+
+                },
             ]
         )
     }
@@ -83,7 +145,7 @@ export const laptop = new class LapTop {
                 },
                 {
                     id:2,
-                    title:"Apple MackBook Pro 15 256GB SSB 8GB y Mobile-Store",
+                    title:"Apple MackBook Pro 15 256GB SSB 8GB by Mobile-Store",
                     thumbnail:"https://ourdeal.co.uk/wp-content/uploads/2023/08/img-MacBook-Pro-Retina-15-Inch-99327-600x600.jpg"
                 },
                 {
@@ -103,8 +165,38 @@ export const laptop = new class LapTop {
                 },
                 {
                     id:6,
-                    title:"Apple MAcBook Pro 13-inch 2023 By Mobile-Store Top Pupular",
+                    title:"Apple MAcBook Pro 13-inch 2023 By Mobile-Store",
                     thumbnail:"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1671304673229"
+                },
+                {
+                    id:7,
+                    title:"MacBook Pro 14-inch by Mobile-Store",
+                    thumbnail:"https://www.apple.com/v/macbook-pro-14-and-16/a/images/overview/hero/intro__ewz1ro7xs14y_large.jpg"
+                },
+                {
+                    id:8,
+                    title:"Gadgets Wrap Premium Mobile-Store",
+                    thumbnail:"https://m.media-amazon.com/images/I/41ZJJLODSAL._AC_UF1000,1000_QL80_.jpg"
+                },
+                {
+                    id:9,
+                    title:"Laptop MacBook Pro By Mobile-Store",
+                    thumbnail:"https://5.imimg.com/data5/SELLER/Default/2021/11/PL/FA/LJ/12888529/apple-laptop.jpg"
+                },
+                {
+                    id:10,
+                    title:" Apple MacBook by Mobile-Store",
+                    thumbnail:"https://i5.walmartimages.com/asr/fa05fdb1-6710-4f3e-a019-a8166f75fc30.69d2b78a4616598d265f70df4f3d1395.jpeg?odnHeight=320&odnWidth=320&odnBg=FFFFFF"
+                },
+                {
+                    id:11,
+                    title:"Apple Last 17inch MacBook Pro ",
+                    thumbnail:"https://cdn.myshoptet.com/usr/www.svetiphonu.cz/user/shop/big/6776_macbook-air-2009.jpg?61a5008e"
+                },
+                {
+                    id:12,
+                    title:"MacBook Pro By Mobile-Store ",
+                    thumbnail:"https://m.media-amazon.com/images/I/71qpd+kaxkL._AC_SX148_SY213_QL70_.jpg"
                 },
             ]
         )

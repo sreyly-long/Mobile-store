@@ -101,7 +101,38 @@ export const phone =  new class Phone {
                     id:6,
                     title:"Huawei Nova 11i by Mobile-Store",
                     thumbnail:"https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-11i/specs/specs-img.png"
-                }
+                },
+
+                {
+                    id:7,
+                    title:"Hauwei Nova Y61 64GB By Mobile-Store",
+                    thumbnail:"https://shunliphone.com/wp-content/uploads/2022/11/Huawei-Nova-Y61-Green-Price-in-Cambodia.jpg"
+                },
+                {
+                    id:8,
+                    title:"Huawei Nova Y70 By Mobile-Store",
+                    thumbnail:"https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova-y70/imgs/nova-y70-1/huawei-nova-y70-1.png"
+                },
+                {
+                    id:9,
+                    title:"Huawei Nova Y90 128GB At Mobile-Store",
+                    thumbnail:"https://arystorephone.com/wp-content/uploads/2022/07/nova-y90-green.jpg?v=1696852854"
+                },
+                {
+                    id:10,
+                    title:"Huawei Nova7 5GB At Mobile-Store",
+                    thumbnail:"https://erp.laser.com.mm/web/image/product.image/358/image_1024/Huawei%20nova%207%205G?unique=3bb4d02"
+                },
+                {
+                    id:11,
+                    title:"Huawei Nova 7,7SE At Mobile-Store",
+                    thumbnail:"https://www.gizmochina.com/2020/01/30/huawei-nova-7i-to-launch-on-february-14/huawei-nova-6-se-3/"
+                },
+                {
+                    id:12,
+                    title:"uawei Nova8 5GB At Mbile-Store",
+                    thumbnail:"https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8-5g.jpg"
+                },
             ]
 
         )
@@ -208,6 +239,37 @@ export const phone =  new class Phone {
                     id: 6,
                     title: "Oppo Reno 10x Zoom by Mobile-Store",
                     thumbnail: "https://assorted.downloads.oppo.com/static/archives/images/dd/Smartphones/Reno-pro/Floating-Layer-980-x-748.png"
+                },
+
+                {
+                    id:7,
+                    title:"Oppo A16 Black - Mobile-Store",
+                    thumbnail:"https://media.ldlc.com/r1600/ld/products/00/05/87/14/LD0005871464_1.jpg"
+                },
+                {
+                    id:8,
+                    title:"Oppo A76 128GB,6GB RAM,Glowing Black",
+                    thumbnail:"https://www.reliancedigital.in/medias/OPPO-A76-Smartphone-492849462-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3MjAyMTZ8aW1hZ2UvcG5nfGltYWdlcy9oMTkvaGUwLzk4ODAzNjU0OTgzOTgucG5nfDg0ZTY3MjcxNGJkYWQ1YmZjMGJjZTE4MTdmNGU0MzAyY2Y3MDRkMzM2Y2Q3YTUyZWJjMjg0YTgzZWU0OTc1NGQ"
+                },
+                {
+                    id:9,
+                    title:"Oppo A95-Full Phone At Mobile-Store",
+                    thumbnail:"https://fdn2.gsmarena.com/vv/bigpic/oppo-a96-new.jpg"
+                },
+                {
+                    id:10,
+                    title:"Oppo Fin N2 Flip 5G 256GB,8GB RAM",
+                    thumbnail:"https://www.reliancedigital.in/medias/Oppo-FindN2Flip-Mobile-Phone-493665430-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNTI2N3xpbWFnZS9qcGVnfGltYWdlcy9oNWMvaDQwLzk5NzAzODYxNDEyMTQuanBnfDJkOTA1Mzc2YjQwMTViZTkwNGI0NDNjZGYwODMxNmEyNmFhNmUwY2JkYmNhYmJmMTE1ZDBjOWE1NzExMjcwZjA"
+                },
+                {
+                    id:11,
+                    title:"Oppo A17 4+64GB Samrt Phone Black",
+                    thumbnail:"https://bermorzone.com.ph/wp-content/uploads/2023/04/oppo-a17-ph4.jpg"
+                },
+                {
+                    id:12,
+                    title:"Oppo Find X3 Pro Price USA",
+                    thumbnail:"https://mobileinto.com/images/Oppo-Find-X3-Pro-44.jpg"
                 },
             ]
         )
