@@ -11,32 +11,21 @@ const Home = () => {
     return (
         <>
             <section className="bgnb">
-                <div className="column_wrapper ">
-                    <div className="content_wrapper wrap">
-                        <div id="carouselExample" className="carousel slide">
-                            <div className="carousel-inner ">
-                                <div className="carousel-item active ">
-                                    <img src={background1} alt="empty" style={{ height: 600, width: 2000 }} />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src={background2} alt=".." style={{ height: 600, width: 2000 }} />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src={background3} alt="empty" style={{ height: 600, width: 2000 }} />
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Next</span>
-                            </button>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src={background1} alt="empty" style={{ height: 600, width: 2000 }} />
+                        </div>
+                        <div class="carousel-item active">
+                            <img src={background2} alt="empty" style={{ height: 600, width: 2000 }} />
+                        </div>
+                        <div class="carousel-item active">
+                            <img src={background3} alt="empty" style={{ height: 600, width: 2000 }} />
                         </div>
                     </div>
                 </div>
             </section>
+            
             <section className="container">
                 <div className="title"><h1>Trending</h1></div>
             </section>
