@@ -27,9 +27,7 @@ function Navbars() {
                         <Link to="/tablet" className='head'>Tablet</Link>
                         <Link to="/Laptop" className='head'>Laptop</Link>
                         <Link to="/smart_watch" className='head'>Smartwatch</Link>
-                    </Nav>
-                    <Nav>
-                    <i class="fa-solid fa-user"></i>
+                        <Link to="/contact_us" className='head'>Contact Us</Link>
                     </Nav>
                     <Form className="d-flex">
                         <Form.Control

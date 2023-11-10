@@ -10,11 +10,13 @@ function Footer() {
                     <li class="nav-item"><Link to="/tablet" class="nav-link px-2 text-body-secondary">Tablet</Link></li>
                     <li class="nav-item"><Link to="/laptop" class="nav-link px-2 text-body-secondary">Laptop</Link></li>
                     <li class="nav-item"><Link to="/smart_watch" class="nav-link px-2 text-body-secondary">Smartwatch</Link></li>
+                    <li class="nav-item"><Link to="/contact_us" class="nav-link px-2 text-body-secondary">Contact Us</Link></li>
                 </ul>
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
-                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
-                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+                <ul className="nav justify-content-center">
+                    <Link to=""  class=" nav-link px-2 text-body-secondary"><i class="fa-brands fa-facebook"></i></Link>
+                    <Link to=""  class=" nav-link px-2 text-body-secondary"><i class="fa-brands fa-telegram"></i></Link>
+                    <Link to=""  class=" nav-link px-2 text-body-secondary"><i class="fa-brands fa-twitter"></i></Link>
+                    <Link to=""  class=" nav-link px-2 text-body-secondary"><i class="fa-brands fa-instagram"></i></Link>
                 </ul>
                 <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
             </footer>
