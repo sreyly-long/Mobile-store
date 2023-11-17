@@ -40,18 +40,28 @@ body {
 .card-body {
   background-color: whitesmoke;
 }
+.card-body ul i {
+  color: rgb(255, 166, 0);
+}
 .btn {
   align-items: center;
   margin-left: 30px;
 
 }
 .smartphone {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   font-family: 'Lato', sans-serif;
   font-family: 'Playpen Sans', cursive;
-  margin-top: 5px;
+  margin-top: 10px;
   text-shadow: 2px 2px rgb(135, 206, 235);
   color: gray;
+}
+.smartphone img,ul,li{
+  display: flex;
+  list-style-type: none;
+  width: 50px;
+
 }
 .google img {
   width: 50%;

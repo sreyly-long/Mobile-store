@@ -2,11 +2,17 @@ const Cards = ({title,thumbnail}) => {
     return (
         <>
             <section>
-            <div class="card">
+            <div className="card">
                     <img src={thumbnail} class="card-img-top" alt="..."/>
-                        <div class="card-body">
+                        <div className="card-body">
                             <p class="card-text">{title}</p>
-                            <a href="#" class="btn btn-secondary">Add to Cart</a>
+                            <ul>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            </ul>
+                            <a href="#" class="btn btn-secondary">See More...</a>
                         </div>
                 </div>
             </section>

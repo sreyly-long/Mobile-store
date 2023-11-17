@@ -18,7 +18,7 @@ function Footer() {
                     <Link to=""  class=" nav-link px-2 text-body-secondary"><i class="fa-brands fa-twitter"></i></Link>
                     <Link to=""  class=" nav-link px-2 text-body-secondary"><i class="fa-brands fa-instagram"></i></Link>
                 </ul>
-                <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+                <p class="text-center text-body-secondary">© 2023 Mobile-Store</p>
             </footer>
         </>
 

@@ -34,7 +34,7 @@ const Home = () => {
                 <div className="row g-3">
                     {
                         supplier.getProducts().map((pro) => (
-                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
                                 <Cards title={pro.title} thumbnail={pro.thumbnail} />
 
                             </div>

@@ -1,11 +1,16 @@
-import { useState } from "react";
 import Cards from "../components/Cards";
 import { phone } from "../api/phone";
+import apple from "../asset/iconapple-removebg-preview.png"
 
 function SmartPhone() { 
     return (
         <>
-            <div className="smartphone"><h1>iPhone</h1></div>
+            <div className="smartphone container">
+               <ul>
+                <li><img src={apple}></img></li>           
+                <li><h1>iPhone</h1></li>
+               </ul>
+            </div>
             <hr></hr>
             <section className="container">
                 <div className="row mt-5 g-3">
