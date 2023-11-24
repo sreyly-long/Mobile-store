@@ -15,7 +15,7 @@ const Contact = () => {
 
             <section className="contact Container ">
 
-                <div className="row mt-5 d-flex ">
+                <div className="row mt-5 ">
                     <div className=" col-lg-6">
                        <div className="forms">
                        <div className="smartphone">
